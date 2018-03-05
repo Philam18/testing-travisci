@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 var http = require('http');
 http.createServer((req,res)=>{
   console.log(req);
