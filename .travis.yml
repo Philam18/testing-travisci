@@ -1,3 +1,10 @@
 language: "node_js"
 node_js :
     - "node"
+install:
+    - npm install codecov
+    
+
+
+
+- codecov --token=9bfd390b-4801-4719-9501-b6750a7f2df1 # upload coverage report to codecov.io
