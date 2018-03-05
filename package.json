@@ -1,0 +1,22 @@
+{
+  "name": "testing-travisci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jshint app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Philam18/testing-travisci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Philam18/testing-travisci/issues"
+  },
+  "homepage": "https://github.com/Philam18/testing-travisci#readme",
+  "dependencies": {
+    "jshint": "^2.9.5"
+  }
+}
